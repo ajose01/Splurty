@@ -30,8 +30,24 @@
 	<hr />
 
 	<br class="clear" />
+<div class="container">
 
 <%= yield %>
+
+</div>
+
+<div id="footer">
+		<div class="container">
+			<div class="col-xs-6">
+				<%= link_to "This isn't enough, I need more", "#", :class => 'next-quote' %>
+			</div>
+			<div cass="col-xs-6 footer-blurb">
+				Proudly hacked in Echo Park, CA by AJ <br />
+			</div>
+			<p class="text-muted">Awesome WebDev straight from Cali</p>
+		</div>
+	</div>
+
 
 </body>
 </html>
